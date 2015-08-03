@@ -18,7 +18,7 @@ header{
     background-color: transparent;
     ul{
         li{   background-color: transparent;
-            
+              
         }
     }
   
@@ -30,6 +30,8 @@ header{
     font-family: $sans;
     padding: 7px 35px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover{
