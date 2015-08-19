@@ -1,0 +1,48 @@
+#three-row{    
+    text-align: center;
+    font-family: $sans;
+    padding:0;
+    &__block{
+        padding-top: 50px;
+        &:hover{
+        background-color: #ededed;
+        @include transition;
+        cursor:pointer;
+    }
+    }
+    h2{           
+            font-size: 24px;       
+            letter-spacing: 2px;
+            color: $black;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-top:20px;
+            @media (min-width: $small) and (max-width: $medium ){
+                font-size:20px;
+            }
+            @media (min-width: $extra-small) and (max-width: $small ){
+                font-size:18px;
+            }
+            &::after{
+                content: "";
+                display:block;
+                border-bottom: 1px solid $gray;
+                padding-top: 20px;
+                width: 40px;
+                margin: 0 auto;
+            }
+        }
+        p{
+            color: $darker-gray;
+            font-size:16px;
+            text-align:center;
+            padding:20px;
+            @media (min-width: $small) and (max-width: $medium ){
+                font-size:14px;
+            }
+            @media (min-width: $extra-small) and (max-width: $small ){
+                font-size:13px;
+            }
+        }
+}
+

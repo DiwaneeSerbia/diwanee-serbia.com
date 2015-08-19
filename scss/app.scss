@@ -1,10 +1,21 @@
 @import "settings";
+
+// Components
+
 @import "foundation";
 @import "blocks/header";
+@import "blocks/three-row-blocks";
+// *Components
+
+// Utility
+
 @import "utility/typography";
 @import "utility/colors";
 @import "utility/transitions";
 @import "utility/breakpoints";
+
+
+// *Utility
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
